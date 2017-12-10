@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="styles/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/common.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/header.css"/>
+		<link rel="stylesheet" type="text/css" href="styles/login.css"/>
+	</head>
+	<body>
+		<!--页头-->
+		<div class="header">
+			<div class="box_inner">
+				<div class="logo_box">
+					<img class="fl" src="img/loginlogo.png" /><span class="fl">legouchina.cn</span>
+				</div>
+				
+				<div class="headertext fr">
+					欢迎光临<a href="index.html">乐购</a>，请&nbsp;<a href="" class="login">登陆</a>\<a href="login.html">注册</a>
+				</div>	
+				<div class="clear"></div>
+			</div>		
+		</div>
+		<!--欢迎登陆-->
+		<div class="welcomelogin">
+			<div class="box_inner">
+				<div class="welcontent fr ">
+					<p class="fl welcontentlt">欢迎登陆</p>
+					<p class="fr welcontentrt">
+						已有账号，请 <a href="">登陆</a>
+					</p>
+				</div>				
+			</div>
+		</div>		
+		<!--登陆表单-->
+		<div class="inner400 loginform">
+			<div class="yhm">
+				<span>用户名</span><input class="username" type="text" id="username"  placeholder="您的账户名和登陆名" /><span class="notice_text" id="nt1">用户名不能为空!</span>
+			</div>
+			<div class="mm">
+				<span>设置密码</span><input class="pwd" type="password" id="password" placeholder="密码必须为数字和字母组合" /><span class="notice_text" id="nt2">密码必须为数字和字母组合!</span>
+			</div>
+			<div class="repeatmm">
+				<span>确认密码</span><input class="repeatpwd" type="password" id='repassword' placeholder="再次输入密码" /><span class="notice_text" id="nt3">两次输入密码不一致!</span>
+			</div>
+			<div class="telphone">
+				<span>中国+86</span><input class="phone" id="phone" type="text" placeholder="建议使用常用手机" /><span class="notice_text" id="nt4">手机号码格式有误！</span>
+			</div>
+			<div class="yznum">
+				<span>验证码</span><input type="text" class="check_num" placeholder="请输入验证码" /><img src="img/yzm.jpg" />
+			</div>
+			<div class="yzphone">
+				<span>手机验证码</span><input type="text" class="phone_num" placeholder="请输入手机验证码"/><button>获取验证码</button>
+			</div>
+			<div class="agree">
+				<input type="checkbox" name="isagree" id="read" />我已阅读并同意<a href="#">《京东用户协议》</a>
+			</div>
+			<div class="zcbtn">
+				<input class="sublogin" type="submit" id="subbtn" value="立即注册"/>
+			</div>			
+		</div>
+		<!--尾部-->
+		<div class="box_inner zcfooter">
+			<p><a>公司简介</a> | <a>Investor Ralations</a> | <a>网站联盟</a> | <a>乐购招商</a> | <a>机构销售</a> | <a>手机乐购 </a> |<a>官方Blog</a> | <a>热词搜索</a> |</p>
+			<p>Copyright&copy; 乐购网 2004-2016，All Rights Reserved</p>
+		</div>
+		
+		<script type="text/javascript">
+			//验证用户名不能为空
+			var input_name=document.getElementById('username');
+			var nt1=document.getElementById('nt1');
+			input_name.onblur=function  () {
+				if (!input_name.value.trim()) {
+					nt1.style.display='block';
+				} else{
+					nt1.style.display='none';
+				}
+			}
+			//验证密码格式
+			var pwd=document.getElementById('password')
+			var nt2=document.getElementById('nt2');
+			pwd.onblur=function  () {
+				var reg2=/[0-9]+[a-zA-Z]+[0-9a-zA-Z]*|[a-zA-Z]+[0-9]+[0-9a-zA-Z]*/;
+				if (!reg2.test(pwd.value)) {
+					nt2.style.display='block';
+				} else{
+					nt2.style.display='none';
+				}
+			}
+			//再次输入密码
+			var repwd=document.getElementById('repassword');
+			var nt3=document.getElementById('nt3');
+			repwd.onblur=function  () {
+				if (repwd.value!=pwd.value) {
+					nt3.style.display='block';
+				} else{
+					nt3.style.display='none';
+				}
+			}
+			//验证手机
+			var phone=document.getElementById('phone');
+			var nt4=document.getElementById('nt4');
+			phone.onblur=function  () {
+				var reg4=/(13\d|14[57]|15[^4,\D]|17[13678]|18\d)\d{8}|170[0589]\d{7}/;
+				if (!reg4.test(phone.value)) {
+					nt4.style.display='block';
+				} else{
+					nt4.style.display='none';
+				}
+			}
+		</script>
+	</body>
+</html>

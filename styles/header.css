@@ -1,0 +1,118 @@
+.display_search{
+	width: 100%;
+	height: 60px;
+	background: rgba(0,0,0,0.5);
+	z-index: 400;
+	display: none;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+}
+
+
+.header{
+	height: 30px;
+	background: #101010;
+	color: #BFBFBF;
+	line-height: 30px;
+}
+
+.header .logo_box{
+	position: absolute;
+	top: 0;
+	width: 500px;
+}
+
+.header .logo_box span{
+	height: 30px;
+	text-indent: 5px;
+	color: #E7E7E7;
+	font-size: 16px;
+}
+
+.header .headertext .login{
+	color: #BFBFBF;
+}
+
+.header .headertext a{
+	color: #FF6600;
+}
+
+
+.search .content{
+	margin-right: 10px;
+	height: 36px;
+	width: 675px;
+	margin-top: 10px;
+}
+
+.search .content .contentlt{
+	width: 450px;
+	height: 36px;
+}
+
+.search .content .contentlt input{
+	width: 390px;
+	border: solid 2px #FF6600;
+	height: 32px;
+	text-indent: 10px;
+	outline: none;
+	color: #666;
+}
+
+.search .content .contentlt button{
+	width: 50px;
+	background:url(../img/fandajing.png) no-repeat 12px 6px;
+	background-color: #FF6600;
+	height: 36px;
+	border: none;
+	outline: none;
+}
+
+.search .content .contentrt{
+	width: 200px;
+	height: 36px;
+}
+
+.search .content .contentrt button{
+	width: 100px;
+	height: 36px;
+	border: none;
+	outline: none;
+}
+
+.search .content .contentrt .shopcar{
+	
+	background: url(../img/Vector-Smart-Object.png) no-repeat 5px 8px;
+	background-color: #FF6600;
+	color: #FEF5EE;
+	text-indent: 32px;
+}
+
+.search .content .contentrt .myorder{
+	background-color: #EBEBEB;
+	color: #808080;
+	border: 1px #CCCCCC solid;
+}
+
+.nav{
+	height: 30px;
+	margin-top: 6px;
+}
+
+.nav .main_nav{
+	width: 1000px;
+	height: 30px;
+	line-height: 30px;
+}
+
+.nav .main_nav ul li{
+	font-weight: bold;
+	display: inline-block;
+	margin: 0 16px;
+}
+
+.nav .main_nav ul li a{
+	color: #323232;
+	
+}

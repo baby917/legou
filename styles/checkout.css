@@ -1,0 +1,145 @@
+.orderdetail{
+	height: 30px;
+	line-height: 30px;
+	margin-top: 100px;
+	font-size: 18px;
+	color: #4E4E4E;
+	text-indent: 5px;
+}
+
+.orderdetail a{
+	color: #1180E9;
+	text-decoration: underline;
+}
+
+.sumpay{
+	height: 60px;
+	background: #F2F2F2;
+	line-height: 60px;
+	font-size: 16px;
+	color: #4E4E4E;
+}
+
+.sumpay span{
+	color: #FF6600;
+}
+
+.sumpay .sumpaylt{
+	text-indent: 5px;	
+}
+
+.sumpay .sumpayrt{
+	text-indent: 5px;
+	margin-right: 86px;	
+	font-size: 16px;
+}
+
+.legoupay{
+	height: 268px;
+}
+
+.legoupay .legoupay_tp{
+	height: 40px;
+	margin: 10px 0px;
+}
+
+.legoupay .legoupay_tp button{
+	height: 40px;
+	border: 0px solid #FF6600;
+	background: #FF6600;
+	color: white;
+	font-size: 18px;
+	width: 150px;
+	line-height: 40px;
+}
+
+.legoupay .legoupay_tp span{
+	margin-left: 10px;
+	color:#BFBFBF ;
+}
+
+.legoupay .legoupay_mid{
+	height: 60px;
+	background: #F2F2F2;
+	padding: 30px 20px 0 40px;
+	font-size: 16px;
+}
+
+.legoupay .legoupay_mid .bankcard{
+	width: 120px;
+	height: 34px;
+	background: url(../img/03-7665_07.png) no-repeat 8px 0px;
+	text-align: center;
+	line-height: 34px;
+}
+
+.legoupay .legoupay_mid .morebankcard{
+	padding: 0 25px;
+	height: 32px;
+	border: solid 1px #BFBFBF;
+	text-align: center;
+	line-height: 32px;
+	margin: 0 28px;
+}
+
+.legoupay .legoupay_mid button{
+	width: 110px;
+	padding: 0 5px;
+	height: 32px;
+	border: solid 1px #999999;
+	background: #999999;
+	text-align: center;
+	line-height: 32px;
+	color: #F4F4F4;
+}
+
+.legoupay .legoupay_ft button{
+	width: 230px;
+	height: 60px;
+	border: solid 0px #999999;
+	background: #FF6600;
+	text-align: center;
+	line-height: 60px;
+	color: white;
+	font-size: 18px;
+	margin: 20px 0px 36px 0;
+}
+
+.otherpay{
+	height: 186px;
+}
+
+.otherpay button{
+	height: 40px;
+	border: 0px solid #76AFF6;
+	background: #76AFF6;
+	color: white;
+	font-size: 18px;
+	width: 150px;
+	line-height: 40px;
+}
+
+.otherpay .otherpay_title{
+	margin-bottom: 16px;
+}
+
+.otherpay .otherpay_title span{
+	margin-left: 10px;
+	color:#BFBFBF ;
+}
+
+.otherpay .otherpay_content{
+	height: 92px;
+	background: #F2F2F2;
+}
+
+.otherpay .otherpay_content p{
+	height: 92px;
+	line-height: 92px;
+	color: #666666;
+	text-align: center;
+}
+
+.otherpay .otherpay_content p a{
+	color: #666666;
+}

@@ -1,0 +1,76 @@
+
+.footer{
+	height: 190px;
+	border-top: 6px solid #FF6600;
+}
+
+.footer .ftpic{
+	height: 95px;
+	background: #F2F2F2;
+}
+
+.footer .ftpic img{
+	padding: 20px 36px;
+}
+
+.footer .ftcontent{
+	height: 200px;
+	position: relative;
+}
+
+.footer .ftcontent .ftcontentlt{
+	height: 170px;
+	width: 800px;
+	padding:30px 0 0 200px;
+}
+
+.footer .ftcontent .ftcontentlt dl{
+	float: left;
+	width: 150px;
+	text-align: center;
+	line-height: 30px;
+}
+
+.footer .ftcontent .ftcontentlt dl dt{
+	font-size: 18px;	
+}
+
+.footer .ftcontent .ftcontentlt dl dt a{
+	font-size: 18px;
+	color: black;
+}
+
+.footer .ftcontent .ftcontentlt dl dd{
+	font-size: 16px;
+
+}
+
+.footer .ftcontent .ftcontentlt dl dd a{
+	color: #4D4D4D;
+}
+
+.footer .ftcontent .ftlogo{
+	margin-top: 50px;
+}
+
+.footer .fttext{
+	height: 170px;
+
+}
+
+.footer .fttext p{
+	text-align: center;
+	padding-top: 25px;
+	color: #343434;
+}
+
+.footer .fttext p a{
+	color: #343434;
+}
+
+/*返回顶部*/
+.footer .returntop{
+	position: absolute;
+	right: -30px;
+	top: -150px;
+}
